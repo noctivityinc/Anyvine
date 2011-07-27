@@ -49,7 +49,6 @@ div#top_content div#app_screenshot {
 div#top_content div#app_screenshot div.price_badge {
   width: 115px;
   height: 115px;
-  background: url("../images/price_badge.png") no-repeat top;
   float: right;
   margin-top: -40px;
   padding-right: 40px;
@@ -64,7 +63,7 @@ div#top_content div#app_screenshot .screencast {
 div#top_content div#app_description {
   float: right;
   width: 590px;
-  margin-top: 15px;
+  margin: 15px 0px;
 }
 /* line 55, ../../app/stylesheets/application.sass */
 div#top_content div#app_description div.header .logo {
@@ -85,29 +84,30 @@ div#top_content div#app_description div.header div.version {
 }
 /* line 66, ../../app/stylesheets/application.sass */
 div#top_content div#app_description p {
-  font-size: 15px;
+  font-size: 13px;
   line-height: 25px;
   letter-spacing: -0.03em;
+  margin-bottom: 10px;
 }
-/* line 70, ../../app/stylesheets/application.sass */
+/* line 71, ../../app/stylesheets/application.sass */
 div#top_content div#app_description ul {
   list-style: none;
   margin-top: 20px;
 }
-/* line 71, ../../app/stylesheets/application.sass */
+/* line 72, ../../app/stylesheets/application.sass */
 div#top_content div#app_description ul li {
-  font-size: 15px;
+  font-size: 13px;
   line-height: 25px;
   letter-spacing: -0.03em;
   background: url("../images/bullet.gif") no-repeat left;
   padding-left: 25px;
   margin-bottom: 6px;
 }
-/* line 80, ../../app/stylesheets/application.sass */
+/* line 81, ../../app/stylesheets/application.sass */
 div#top_content div#app_description div.actions {
   margin-top: 50px;
 }
-/* line 82, ../../app/stylesheets/application.sass */
+/* line 83, ../../app/stylesheets/application.sass */
 div#top_content div#app_description div.actions a.app_store {
   width: 251px;
   height: 75px;
@@ -116,7 +116,7 @@ div#top_content div#app_description div.actions a.app_store {
   text-indent: -999999px;
   float: left;
 }
-/* line 89, ../../app/stylesheets/application.sass */
+/* line 90, ../../app/stylesheets/application.sass */
 div#top_content div#app_description div.actions p {
   font-size: 12px;
   width: 260px;
@@ -124,39 +124,39 @@ div#top_content div#app_description div.actions p {
   margin-left: 30px;
   line-height: 19px;
 }
-/* line 95, ../../app/stylesheets/application.sass */
+/* line 96, ../../app/stylesheets/application.sass */
 div#top_content div#app_description div.actions p b {
   display: block;
   color: #444444;
 }
-/* line 98, ../../app/stylesheets/application.sass */
+/* line 99, ../../app/stylesheets/application.sass */
 div#page_seperator {
   height: 2px;
   width: 100%;
   background: url("../images/page_seperator.gif") repeat-x top;
 }
-/* line 102, ../../app/stylesheets/application.sass */
+/* line 103, ../../app/stylesheets/application.sass */
 div#bottom_content {
   background: url("../images/dark_shadow.gif") no-repeat top;
 }
-/* line 104, ../../app/stylesheets/application.sass */
+/* line 105, ../../app/stylesheets/application.sass */
 div#nav {
   margin-top: -1px;
   background: url("../images/horizontal_seperator.gif") repeat-x bottom;
 }
-/* line 107, ../../app/stylesheets/application.sass */
+/* line 108, ../../app/stylesheets/application.sass */
 div#nav ul {
   list-style: none;
   height: 40px;
   width: 620px;
   margin: 0 auto;
 }
-/* line 112, ../../app/stylesheets/application.sass */
+/* line 113, ../../app/stylesheets/application.sass */
 div#nav ul li {
   float: left;
   margin-right: 15px;
 }
-/* line 115, ../../app/stylesheets/application.sass */
+/* line 116, ../../app/stylesheets/application.sass */
 div#nav ul li a {
   padding: 12px 25px 12px 25px;
   display: block;
@@ -164,33 +164,33 @@ div#nav ul li a {
   font-weight: bold;
   text-decoration: none;
 }
-/* line 121, ../../app/stylesheets/application.sass */
+/* line 122, ../../app/stylesheets/application.sass */
 div#nav ul li a:hover {
   background: #dddddd;
 }
-/* line 123, ../../app/stylesheets/application.sass */
+/* line 124, ../../app/stylesheets/application.sass */
 div#nav ul li a.current {
   background: #dddddd;
   color: black;
 }
-/* line 126, ../../app/stylesheets/application.sass */
+/* line 127, ../../app/stylesheets/application.sass */
 div.pane {
   padding: 45px 0px 25px 0px;
 }
-/* line 128, ../../app/stylesheets/application.sass */
+/* line 129, ../../app/stylesheets/application.sass */
 div#features {
   background: url("../images/horizontal_seperator.gif") repeat-x bottom;
   clear: both;
   padding-bottom: 30px;
 }
-/* line 133, ../../app/stylesheets/application.sass */
+/* line 134, ../../app/stylesheets/application.sass */
 div#features div.feature {
   width: 283px;
   float: left;
   margin-right: 25px;
   position: relative;
 }
-/* line 139, ../../app/stylesheets/application.sass */
+/* line 140, ../../app/stylesheets/application.sass */
 div#features div.feature div.new {
   width: 106px;
   height: 95px;
@@ -200,16 +200,16 @@ div#features div.feature div.new {
   right: 0;
   z-index: 2;
 }
-/* line 147, ../../app/stylesheets/application.sass */
+/* line 148, ../../app/stylesheets/application.sass */
 div#features div.feature div.content {
   background: #d3d3d3 url("../images/feature_box-top.gif") no-repeat top;
   padding: 20px 20px 10px 20px;
 }
-/* line 150, ../../app/stylesheets/application.sass */
+/* line 151, ../../app/stylesheets/application.sass */
 div#features div.feature div.content div.screenshot {
   position: relative;
 }
-/* line 152, ../../app/stylesheets/application.sass */
+/* line 153, ../../app/stylesheets/application.sass */
 div#features div.feature div.content div.screenshot a {
   width: 37px;
   height: 26px;
@@ -220,7 +220,7 @@ div#features div.feature div.content div.screenshot a {
   bottom: 0px;
   left: 2px;
 }
-/* line 161, ../../app/stylesheets/application.sass */
+/* line 162, ../../app/stylesheets/application.sass */
 div#features div.feature div.content p {
   color: #696969;
   letter-spacing: -0.03em;
@@ -228,20 +228,20 @@ div#features div.feature div.content p {
   padding-top: 15px;
   padding-left: 5px;
 }
-/* line 167, ../../app/stylesheets/application.sass */
+/* line 168, ../../app/stylesheets/application.sass */
 div#features div.feature div.bottom {
   height: 8px;
   background: url("../images/feature_box-bottom.gif") no-repeat top;
 }
-/* line 170, ../../app/stylesheets/application.sass */
+/* line 171, ../../app/stylesheets/application.sass */
 div#features div.last {
   margin-right: 0px;
 }
-/* line 172, ../../app/stylesheets/application.sass */
+/* line 173, ../../app/stylesheets/application.sass */
 div#reviews_faqs {
   padding-top: 35px;
 }
-/* line 174, ../../app/stylesheets/application.sass */
+/* line 175, ../../app/stylesheets/application.sass */
 div#reviews {
   float: left;
   width: 275px;
@@ -251,14 +251,14 @@ div#reviews {
   overflow: hidden;
   position: relative;
 }
-/* line 182, ../../app/stylesheets/application.sass */
+/* line 183, ../../app/stylesheets/application.sass */
 div#reviews div.review {
   background: url("../images/quotes.gif") no-repeat top left;
   padding-left: 30px;
   margin-bottom: 35px;
   position: relative;
 }
-/* line 187, ../../app/stylesheets/application.sass */
+/* line 188, ../../app/stylesheets/application.sass */
 div#reviews div.review p {
   font-style: italic;
   font-size: 13px;
@@ -267,13 +267,13 @@ div#reviews div.review p {
   padding-top: 2px;
   margin-bottom: 20px;
 }
-/* line 194, ../../app/stylesheets/application.sass */
+/* line 195, ../../app/stylesheets/application.sass */
 div#reviews div.review span {
   color: #519fa0;
   text-align: right;
   display: block;
 }
-/* line 198, ../../app/stylesheets/application.sass */
+/* line 199, ../../app/stylesheets/application.sass */
 div#reviews div.review span a {
   display: block;
   font-size: 11px;
@@ -281,87 +281,87 @@ div#reviews div.review span a {
   color: #999999;
   margin-top: 3px;
 }
-/* line 204, ../../app/stylesheets/application.sass */
+/* line 205, ../../app/stylesheets/application.sass */
 div#reviews div.review span a:hover {
   color: #555555;
 }
-/* line 206, ../../app/stylesheets/application.sass */
+/* line 207, ../../app/stylesheets/application.sass */
 div#faqs {
   float: right;
   width: 540px;
 }
-/* line 210, ../../app/stylesheets/application.sass */
+/* line 211, ../../app/stylesheets/application.sass */
 div#faqs div.left_column {
   float: left;
   width: 240px;
 }
-/* line 213, ../../app/stylesheets/application.sass */
+/* line 214, ../../app/stylesheets/application.sass */
 div#faqs div.right_column {
   float: right;
   width: 240px;
 }
-/* line 216, ../../app/stylesheets/application.sass */
+/* line 217, ../../app/stylesheets/application.sass */
 div#faqs div.faq {
   margin-bottom: 40px;
 }
-/* line 218, ../../app/stylesheets/application.sass */
+/* line 219, ../../app/stylesheets/application.sass */
 div#faqs div.faq b {
   color: #252525;
   font-weight: bold;
   margin-bottom: 10px;
   display: block;
 }
-/* line 223, ../../app/stylesheets/application.sass */
+/* line 224, ../../app/stylesheets/application.sass */
 div#faqs div.faq p {
   color: #777777;
   font-size: 12px;
   line-height: 20px;
 }
-/* line 228, ../../app/stylesheets/application.sass */
+/* line 229, ../../app/stylesheets/application.sass */
 div#about div.left {
   float: left;
   width: 570px;
   padding-right: 40px;
 }
-/* line 232, ../../app/stylesheets/application.sass */
+/* line 233, ../../app/stylesheets/application.sass */
 div#about div.left p {
   line-height: 20px;
   margin-bottom: 25px;
 }
-/* line 235, ../../app/stylesheets/application.sass */
+/* line 236, ../../app/stylesheets/application.sass */
 div#about div.right {
   background: #dddddd;
   float: right;
   padding: 15px 25px 5px 25px;
   width: 220px;
 }
-/* line 240, ../../app/stylesheets/application.sass */
+/* line 241, ../../app/stylesheets/application.sass */
 div#about div.right h2 {
   margin-bottom: 15px;
 }
-/* line 242, ../../app/stylesheets/application.sass */
+/* line 243, ../../app/stylesheets/application.sass */
 div#about div.right ul {
   list-style: none;
 }
-/* line 244, ../../app/stylesheets/application.sass */
+/* line 245, ../../app/stylesheets/application.sass */
 div#about div.right ul li {
   margin-bottom: 12px;
   padding-bottom: 12px;
   clear: both;
   border-bottom: 1px solid #cccccc;
 }
-/* line 249, ../../app/stylesheets/application.sass */
+/* line 250, ../../app/stylesheets/application.sass */
 div#about div.right ul li img {
   float: left;
   margin-right: 15px;
 }
-/* line 252, ../../app/stylesheets/application.sass */
+/* line 253, ../../app/stylesheets/application.sass */
 div#about div.right ul li h3 {
   font-size: 13px;
   margin-bottom: 5px;
   color: #555555;
 }
-/* line 256, ../../app/stylesheets/application.sass */
+/* line 257, ../../app/stylesheets/application.sass */
 div#about div.right ul li span {
   font-size: 12px;
   display: block;
@@ -369,83 +369,83 @@ div#about div.right ul li span {
   font-style: italic;
   color: #999999;
 }
-/* line 262, ../../app/stylesheets/application.sass */
+/* line 263, ../../app/stylesheets/application.sass */
 div#about div.right ul li a {
   font-size: 11px;
   color: #50aeae;
   text-decoration: none;
 }
-/* line 266, ../../app/stylesheets/application.sass */
+/* line 267, ../../app/stylesheets/application.sass */
 div#about div.right ul li a:hover {
   color: #333333;
 }
-/* line 268, ../../app/stylesheets/application.sass */
+/* line 269, ../../app/stylesheets/application.sass */
 div#about div.right ul li.last {
   border: none;
 }
-/* line 271, ../../app/stylesheets/application.sass */
+/* line 272, ../../app/stylesheets/application.sass */
 div#screenshots ul {
   list-style: none;
 }
-/* line 273, ../../app/stylesheets/application.sass */
+/* line 274, ../../app/stylesheets/application.sass */
 div#screenshots li {
   float: left;
   margin-right: 25px;
 }
-/* line 276, ../../app/stylesheets/application.sass */
+/* line 277, ../../app/stylesheets/application.sass */
 div#screenshots li img {
   width: 200px;
 }
-/* line 279, ../../app/stylesheets/application.sass */
+/* line 280, ../../app/stylesheets/application.sass */
 div#release_notes div.release {
   margin-bottom: 40px;
   border-bottom: 1px solid #dddddd;
   padding-bottom: 30px;
 }
-/* line 283, ../../app/stylesheets/application.sass */
+/* line 284, ../../app/stylesheets/application.sass */
 div#release_notes .left {
   float: left;
   width: 200px;
 }
-/* line 287, ../../app/stylesheets/application.sass */
+/* line 288, ../../app/stylesheets/application.sass */
 div#release_notes div.right {
   float: right;
   width: 700px;
 }
-/* line 291, ../../app/stylesheets/application.sass */
+/* line 292, ../../app/stylesheets/application.sass */
 div#release_notes div.release span.date {
   display: block;
   margin-bottom: 15px;
   font-size: 12px;
 }
-/* line 295, ../../app/stylesheets/application.sass */
+/* line 296, ../../app/stylesheets/application.sass */
 div#release_notes div.release ul {
   padding-left: 35px;
   line-height: 22px;
 }
-/* line 298, ../../app/stylesheets/application.sass */
+/* line 299, ../../app/stylesheets/application.sass */
 div#release_notes div.last {
   margin: 0;
   padding: 0;
   border: none;
 }
-/* line 303, ../../app/stylesheets/application.sass */
+/* line 304, ../../app/stylesheets/application.sass */
 div#contact_form div.left {
   float: left;
   width: 540px;
   padding-right: 40px;
   background: url("../images/vertical_seperator.gif") repeat-y top right;
 }
-/* line 309, ../../app/stylesheets/application.sass */
+/* line 310, ../../app/stylesheets/application.sass */
 div#contact_form div.text_fields {
   float: left;
 }
-/* line 311, ../../app/stylesheets/application.sass */
+/* line 312, ../../app/stylesheets/application.sass */
 div#contact_form form p {
   clear: both;
   margin-bottom: 23px;
 }
-/* line 314, ../../app/stylesheets/application.sass */
+/* line 315, ../../app/stylesheets/application.sass */
 div#contact_form p label {
   background: #dddddd;
   display: block;
@@ -458,7 +458,7 @@ div#contact_form p label {
   text-transform: uppercase;
   float: left;
 }
-/* line 325, ../../app/stylesheets/application.sass */
+/* line 326, ../../app/stylesheets/application.sass */
 div#contact_form .text_input {
   background: white url("../images/text_field.gif") repeat-x top;
   border: 1px solid silver;
@@ -468,20 +468,20 @@ div#contact_form .text_input {
   margin-left: -2px;
   width: 240px;
 }
-/* line 333, ../../app/stylesheets/application.sass */
+/* line 334, ../../app/stylesheets/application.sass */
 div#contact_form select.text_input {
   padding: 6px 6px 4px 6px;
   width: 257px;
   height: 31px;
 }
-/* line 337, ../../app/stylesheets/application.sass */
+/* line 338, ../../app/stylesheets/application.sass */
 div#contact_form #message {
   width: 400px;
   height: 105px;
   font-size: 12px;
   color: #666666;
 }
-/* line 342, ../../app/stylesheets/application.sass */
+/* line 343, ../../app/stylesheets/application.sass */
 div#contact_form p.validation {
   font-size: 11px;
   text-transform: uppercase;
@@ -489,31 +489,31 @@ div#contact_form p.validation {
   margin: 0;
   float: left;
 }
-/* line 348, ../../app/stylesheets/application.sass */
+/* line 349, ../../app/stylesheets/application.sass */
 div#contact_form .send {
   float: left;
   margin-left: 275px;
 }
-/* line 351, ../../app/stylesheets/application.sass */
+/* line 352, ../../app/stylesheets/application.sass */
 div#contact_form div.right {
   width: 275px;
   float: right;
 }
-/* line 354, ../../app/stylesheets/application.sass */
+/* line 355, ../../app/stylesheets/application.sass */
 div#contact_form div.right b {
   font-weight: bold;
   color: #252525;
   display: block;
   margin-bottom: 10px;
 }
-/* line 359, ../../app/stylesheets/application.sass */
+/* line 360, ../../app/stylesheets/application.sass */
 div#contact_form div.right p {
   font-size: 13px;
   line-height: 22px;
   letter-spacing: -0.02em;
   margin-bottom: 10px;
 }
-/* line 364, ../../app/stylesheets/application.sass */
+/* line 365, ../../app/stylesheets/application.sass */
 div#contact_form div.right a.email {
   display: block;
   padding-left: 28px;
@@ -521,37 +521,37 @@ div#contact_form div.right a.email {
   color: #50aeae;
   text-decoration: none;
 }
-/* line 370, ../../app/stylesheets/application.sass */
+/* line 371, ../../app/stylesheets/application.sass */
 div#contact_form div.right a.email:hover {
   color: #333333;
 }
-/* line 372, ../../app/stylesheets/application.sass */
+/* line 373, ../../app/stylesheets/application.sass */
 div#footer {
   padding-top: 10px;
   padding-bottom: 30px;
 }
-/* line 376, ../../app/stylesheets/application.sass */
+/* line 377, ../../app/stylesheets/application.sass */
 div#footer div.top {
   height: 30px;
   background: url("../images/horizontal_seperator.gif") repeat-x bottom;
 }
-/* line 379, ../../app/stylesheets/application.sass */
+/* line 380, ../../app/stylesheets/application.sass */
 div#footer div.top img {
   float: left;
 }
-/* line 381, ../../app/stylesheets/application.sass */
+/* line 382, ../../app/stylesheets/application.sass */
 div#footer div.top ul {
   list-style: none;
   float: right;
   margin-top: -10px;
 }
-/* line 385, ../../app/stylesheets/application.sass */
+/* line 386, ../../app/stylesheets/application.sass */
 div#footer div.top ul li {
   background: url("../images/vertical_seperator.gif") repeat-y top left;
   float: left;
   padding: 8px 15px 8px 15px;
 }
-/* line 389, ../../app/stylesheets/application.sass */
+/* line 390, ../../app/stylesheets/application.sass */
 div#footer div.top ul li a {
   width: 22px;
   height: 22px;
@@ -559,39 +559,39 @@ div#footer div.top ul li a {
   text-indent: -99999px;
   display: block;
 }
-/* line 395, ../../app/stylesheets/application.sass */
+/* line 396, ../../app/stylesheets/application.sass */
 div#footer div.top ul li.twitter a {
   background-position: 0px 0px;
 }
-/* line 397, ../../app/stylesheets/application.sass */
+/* line 398, ../../app/stylesheets/application.sass */
 div#footer div.top ul li.twitter a:hover {
   background-position: 0px -22px;
 }
-/* line 399, ../../app/stylesheets/application.sass */
+/* line 400, ../../app/stylesheets/application.sass */
 div#footer div.top ul li.facebook a {
   background-position: -22px 0px;
 }
-/* line 401, ../../app/stylesheets/application.sass */
+/* line 402, ../../app/stylesheets/application.sass */
 div#footer div.top ul li.facebook a:hover {
   background-position: -22px -22px;
 }
-/* line 403, ../../app/stylesheets/application.sass */
+/* line 404, ../../app/stylesheets/application.sass */
 div#footer div.top ul li.rss a {
   background-position: -44px 0px;
 }
-/* line 405, ../../app/stylesheets/application.sass */
+/* line 406, ../../app/stylesheets/application.sass */
 div#footer div.top ul li.rss a:hover {
   background-position: -44px -22px;
 }
-/* line 407, ../../app/stylesheets/application.sass */
+/* line 408, ../../app/stylesheets/application.sass */
 div#footer div.bottom {
   padding-top: 10px;
 }
-/* line 409, ../../app/stylesheets/application.sass */
+/* line 410, ../../app/stylesheets/application.sass */
 div#footer div.bottom a {
   float: left;
 }
-/* line 411, ../../app/stylesheets/application.sass */
+/* line 412, ../../app/stylesheets/application.sass */
 div#footer div.bottom p {
   float: right;
   font-size: 11px;
@@ -628,7 +628,7 @@ div#footer div.bottom p {
 /*--------------------------------------------
  *Typography
  *--------------------------------------------- */
-/* line 456, ../../app/stylesheets/application.sass */
+/* line 457, ../../app/stylesheets/application.sass */
 h1 {
   width: 550px;
   height: 240px;
@@ -637,14 +637,14 @@ h1 {
   margin-bottom: 15px;
 }
 
-/* line 463, ../../app/stylesheets/application.sass */
+/* line 464, ../../app/stylesheets/application.sass */
 h2 {
   color: #222222;
   font-size: 20px;
   margin-bottom: 15px;
 }
 
-/* line 468, ../../app/stylesheets/application.sass */
+/* line 469, ../../app/stylesheets/application.sass */
 h3 {
   color: #222222;
   font-size: 16px;
@@ -652,7 +652,7 @@ h3 {
   font-weight: bold;
 }
 
-/* line 474, ../../app/stylesheets/application.sass */
+/* line 475, ../../app/stylesheets/application.sass */
 span.red {
   color: #e20a10;
 }
@@ -660,17 +660,17 @@ span.red {
 /*--------------------------------------------
  *Utility
  *--------------------------------------------- */
-/* line 481, ../../app/stylesheets/application.sass */
+/* line 482, ../../app/stylesheets/application.sass */
 .clear {
   clear: both;
 }
 
-/* line 484, ../../app/stylesheets/application.sass */
+/* line 485, ../../app/stylesheets/application.sass */
 img {
   border: none;
 }
 
-/* line 487, ../../app/stylesheets/application.sass */
+/* line 488, ../../app/stylesheets/application.sass */
 a {
   outline: none;
 }
