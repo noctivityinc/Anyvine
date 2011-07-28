@@ -15,6 +15,11 @@
       #top_content.page
         = yield
     #page_seperator   
+    #partners
+      %span
+        %h3 In Partnership With
+        = link_to image_tag("partners/wine_searcher.jpg", :title => "Wine-Searcher"),"http://wine-searcher.com", :target => "_blank"
+    #nav      
     #footer.page
       / Start Footer
       .top
